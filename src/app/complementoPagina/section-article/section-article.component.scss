@@ -1,0 +1,52 @@
+#section-1{
+    background-image: url(../../../assets/img/los-7-chakras.jpg);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 50vh;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#section-2{
+    min-height: 50vh;
+    background-color: rgba(52, 210, 147, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#section-0{
+    position: relative;
+    top: 0;
+    min-height: 50vh;
+}
+#section-3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 100px 0 100px;
+    background-image: none;
+    background-color: transparent;
+}
+.red-btn, .green-btn, .blue-btn, .yellow-btn {
+    color: #fff !important;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.green-btn {
+    background: #1e9e6b;
+}
+.custom-button {
+    display: inline-block !important;
+    margin: 10px;
+    padding: 13px 35px 13px 35px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.custom-button:hover{
+    background-color: #017c4b;
+}

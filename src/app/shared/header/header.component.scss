@@ -1,0 +1,10 @@
+.navbar .col-12 a:hover, .navbar .navbar-collapse a:hover{
+    color: #e96656;
+    -webkit-transition: all 700ms;
+    transition: all 700ms;
+}
+@media (min-width: 992px){
+    #navbarSupportedContent-2{
+        display: none !important;
+    }
+}

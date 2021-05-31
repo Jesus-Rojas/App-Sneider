@@ -1,0 +1,40 @@
+.service-icon {
+    display: block;
+    position: relative;
+    width: 145px;
+    height: 145px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-bottom: 20px;
+    border: 10px solid #ececec;
+    border-radius: 50%;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.card{
+    border: none;
+}
+hr{
+    opacity: 1;
+}
+.hr-color-rojo{
+    color: #e96656;
+    height: 3px;
+}
+.hr-color-azul{
+    color: #428bca;
+    height: 3px;
+}
+.hr-color-verde{
+    color: #34d293;
+    height: 3px;
+}
+#card-rojo:hover{
+    border: 10px solid #e96656;
+}
+#card-verde:hover{
+    border: 10px solid #34d293;
+}
+#card-azul:hover{
+    border: 10px solid #428bca;
+}

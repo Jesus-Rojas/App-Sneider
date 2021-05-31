@@ -1,0 +1,84 @@
+.about-us {
+    padding-top: 100px;
+}
+@media (max-width: 992px){
+    .about-us {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+#testimonio{
+    background-color: #8c7620;
+}
+#client-feedbacks .feedback-box, .testimonial .widget_zerif_testim-widget {
+    display: inline-block;
+    z-index: 5;
+    width: 30%;
+    margin: 13px;
+    padding: 25px;
+    border-radius: 4px;
+    background: #fff;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    text-align: left;
+    vertical-align: top;
+}
+@media (max-width: 992px){
+    #client-feedbacks .feedback-box {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+.feedback-box .message, .testimonial .widget_zerif_testim-widget .message {
+    color: #000;
+    font-size: 15px;
+}
+.feedback-box .client, .testimonial .widget_zerif_testim-widget .client {
+    position: relative;
+    height: 73px;
+    margin-top: 30px;
+}
+.feedback-box .quote, .testimonial .widget_zerif_testim-widget .quote {
+    float: left;
+    font-size: 45px;
+    line-height: 80px;
+}
+.red-text {
+    color: #e96656;
+}
+.feedback-box .client-info, .testimonial .widget_zerif_testim-widget .client-info {
+    float: left;
+    margin-left: 18px;
+    padding-top: 15px;
+}
+.feedback-box .client-image, .testimonial .widget_zerif_testim-widget .client-image {
+    float: right;
+    overflow: hidden;
+    width: 73px;
+    height: 73px;
+    border: 3px solid #f6f6f6;
+    border-radius: 50%;
+}
+.feedback-box .client-info .client-name, .testimonial .widget_zerif_testim-widget .client-name {
+    color: #404040;
+    font-family: "Homemade Apple", serif;
+}
+.fa-quote-left:before {
+    content: "\f10d";
+}
+#persona-3{
+    background-image: url(../../../assets/img/persona-3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#persona-2{
+    background-image: url(../../../assets/img/persona-2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#persona-1{
+    background-image: url(../../../assets/img/persona-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
